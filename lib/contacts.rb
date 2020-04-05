@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
 abc = contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
 if abc.each do |x|
   x == "strawberry"
-  abc.splice!("strawberry")
+  abc.slice("strawberry")
 end
 end
 end
