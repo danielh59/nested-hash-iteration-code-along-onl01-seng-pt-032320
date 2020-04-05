@@ -1,6 +1,7 @@
 require 'pry'
 
   # This is the array we will be passing into the remove_strawberry method
+  
   contacts = {
     "Jon Snow" => {
       name: "Jon",
@@ -18,5 +19,5 @@ def remove_strawberry(contacts)
 contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
 if favorite_ice_cream_flavors.each do |x|
   x == "strawberry"
-  
+end
 end
