@@ -21,5 +21,6 @@ if abc.each do |x|
   x == "strawberry"
   abc.slice("strawberry")
 end
+abc 
 end
 end
