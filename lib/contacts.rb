@@ -16,11 +16,7 @@ require 'pry'
   }
   
 def remove_strawberry(contacts)
-contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
-if abc.each do |x|
-  x == "strawberry"
-  abc.slice("strawberry")
-end
-abc 
+contacts.each do |name, value|
+
 end
 end
